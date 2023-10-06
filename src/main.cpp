@@ -1,4 +1,6 @@
 #include <iostream>
+#include <sstream>
+#include "AVL.h"
 
 /* Note: 
 	1. You will have to comment main() when unit testing your code because catch uses its own main().
@@ -6,6 +8,12 @@
 */
 
 int main(){
+    AVL tree;   // Create a Tree object
+    string numCommands;
+    cin >> numCommands;
+    tree.insert(tree.head, "Bratt pls", 11111111);
+    cout << numCommands;
+    cout << tree.head;
 	return 0;
 }
 
